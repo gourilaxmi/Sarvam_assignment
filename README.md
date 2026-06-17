@@ -1,4 +1,4 @@
-# Sarvam TTS Dataset Curation — Bilingual Pipeline
+# Sarvam Dataset Curation — Bilingual Pipeline
 
 **Indian English (en-IN) · Malayalam (ml-IN)**
 
@@ -16,6 +16,8 @@ A high-quality bilingual speech dataset pipeline built for Text-to-Speech model 
 ├── metadata_english.jsonl         # Per-clip metadata for all 83 English clips
 ├── rejected_log_eng.jsonl         # 56 rejected English clips with rejection reasons
 ├── english_accepted_segments.csv  # Flat CSV version of English accepted metadata
+├── metadata.jsonl # Per-clip metadata for Malayalam clip
+├── rejected.jsonl # Rejected clips for Malayalam which is none
 
 
 ```
